@@ -146,8 +146,9 @@
         }
 
         .hero-gradient {
-            background: linear-gradient(to right, #10b981, #3b82f6);
+            background: linear-gradient(to right, #10b981 30%, #3b82f6 100%);
             -webkit-background-clip: text;
+            background-clip: text;
             -webkit-text-fill-color: transparent;
             font-weight: 800;
         }
@@ -289,6 +290,7 @@
 
         .highlight-card {
             background: rgba(15, 23, 42, 0.7);
+            -webkit-backdrop-filter: blur(10px);
             backdrop-filter: blur(10px);
             border-radius: 20px;
             padding: 40px 30px;
@@ -571,7 +573,7 @@
     <section class="hero-section">
         <div class="container">
             <div class="hero-content">
-                <h1>Hi, I'm <span class="hero-gradient">Kartikey Sharma</span></h1>
+                <h1><span class="hero-gradient">Hi, I'm Kartikey Sharma</span></h1>
                 <div class="hero-subtitle">Machine Learning Engineer & Financial Analytics Specialist</div>
                 <p class="hero-description">I build intelligent solutions that solve real-world problems. Specializing in AI-driven facial recognition systems and algorithmic trading platforms. Passionate about creating efficient, high-performance applications with measurable results.</p>
                 <div class="cta-buttons">
@@ -585,7 +587,7 @@
             </div>
             <div class="hero-image">
                 <div class="hero-image-content">
-                    <i class="fas fa-laptop-code"></i>
+                    <img src="pic\PORTFOLIO_IMG.jpg" alt="Kartikey Sharma" style="width: 100%; height: 100%; border-radius: 50%; object-fit: cover;">
                 </div>
                 <div class="decoration-circle circle-1"></div>
                 <div class="decoration-circle circle-2"></div>
@@ -633,8 +635,8 @@
             <a href="https://github.com/kartik-sharma-0786" class="social-link" target="_blank">
                 <i class="fab fa-github"></i>
             </a>
-            <a href="#" class="social-link">
-                <i class="fab fa-linkedin-in"></i>
+           <a href="https://www.linkedin.com/in/kartikey-sharma-05ab0627b/" class="social-link" target="_blank" rel="noopener" title="LinkedIn">
+                <i class="fab fa-linkedin-in" aria-label="LinkedIn"></i>
             </a>
             <a href="#" class="social-link">
                 <i class="fab fa-twitter"></i>
@@ -643,7 +645,7 @@
                 <i class="fab fa-instagram"></i>
             </a>
         </div>
-        <p class="copyright">© 2023 Kartikey Sharma. All Rights Reserved.<br>Computer Science Engineer | IIIT Kalyani</p>
+        <p class="copyright">© 2025 Kartikey Sharma. All Rights Reserved.<br>Computer Science Engineer | IIIT Kalyani</p>
     </footer>
 
     <script>

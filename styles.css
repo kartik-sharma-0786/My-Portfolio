@@ -1,4 +1,4 @@
-/* styles.css */
+/* styles.css
 :root {
     --primary: #2563eb;
     --primary-dark: #1d4ed8;
@@ -86,6 +86,7 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Header & Navigation */
+/*
 header {
     position: fixed;
     top: 0;
@@ -144,7 +145,7 @@ header {
     position: relative;
     padding: 5px 0;
 }
-
+s
 .dark-mode .nav-links a {
     color: var(--light);
 }
@@ -412,4 +413,4 @@ footer {
         width: 100%;
         text-align: center;
     }
-}
+} */
